@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" type="text/css" href="lista.css">
+</head>
+<body>
+  
+  <div class="campo">
+    <h1>Lista de Tarefas</h1>
+    <div id="app">    
+      <div class="adicionarTarefas">
+        <input type="text" id="entrada-pergunta" placeholder="Digite uma nova tarefa">
+        <button id="adicionarBotao">Adicionar</button>
+      </div>
+      <div class="listaTarefas">
+        <h2>Tarefas Pendentes</h2>
+        <ul id="tarefasPendentes">
+        </ul>
+      </div>
+      <div class="listaTarefas">
+        <h2>Tarefas Concluídas</h2>
+        <ul id="tarefasConcluidas">
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="lista.js"></script>
+</body>
+</html>
